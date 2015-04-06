@@ -1,0 +1,21 @@
+ALTER TABLE  `about` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `product` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `lichkhaigiang` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `giaovu_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `giaovu` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `bantin` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `bantin_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `doanhnghiep` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `doanhnghiep_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `tvdt_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `tvdt` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `tvs_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `tvs` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `images_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `images` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `tuyendung_type` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `tuyendung` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `dngv` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `video` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+ALTER TABLE  `thuvien` ADD  `tag` TEXT NOT NULL AFTER  `tt3` ;
+
